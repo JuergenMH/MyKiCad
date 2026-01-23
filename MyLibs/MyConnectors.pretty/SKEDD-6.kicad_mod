@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "SKEDD holes")
 	(tags "SKEDD, Connector, PCB, Programming, Debug")
 	(property "Reference" "REF**"
 		(at -5.5 -5.25 0)
