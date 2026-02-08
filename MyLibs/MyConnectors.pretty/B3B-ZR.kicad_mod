@@ -17,7 +17,7 @@
 	)
 	(property "Value" "B3B-ZR"
 		(at 0.06 2.865 0)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "1f0c9bc4-98a3-4b53-8efd-b2d3a72f372a")
 		(effects
 			(font
