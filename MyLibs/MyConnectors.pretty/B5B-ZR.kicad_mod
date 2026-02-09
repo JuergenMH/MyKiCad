@@ -1,0 +1,151 @@
+(footprint "B5B-ZR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST Header straight RM 1,5mm")
+	(property "Reference" "REF**"
+		(at 2.425 -0.905 0)
+		(layer "F.SilkS")
+		(uuid "5c157e67-ff2c-435f-8869-01d4fa56a8a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B5B-ZR"
+		(at 3.06 4.73 0)
+		(layer "F.SilkS")
+		(uuid "6fd08077-5c97-4dfc-b920-a50dc9658777")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe045f56-59f9-4f0e-8278-21792d35a6f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "JST Header straight RM 1,5mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b5ef689-07f2-4993-a303-51b8b04511cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -0.07)
+		(end 9 -0.07)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05f471cf-5ac9-4cbd-9c91-9155f84d0f64")
+	)
+	(fp_line
+		(start 0 3.43)
+		(end 0 -0.07)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5140116-4daf-4b17-94bf-51855152600e")
+	)
+	(fp_line
+		(start 9 -0.07)
+		(end 9 3.43)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7ff57aa-bc1b-49ec-89f8-9d9e3b4b1742")
+	)
+	(fp_line
+		(start 9 3.43)
+		(end 0 3.43)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c645c7f2-0af6-45c3-a350-12dc4d43009c")
+	)
+	(pad "1" thru_hole circle
+		(at 7.5 1.3)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7ff67ac1-9bcc-499c-bb95-de01e5f6e92b")
+	)
+	(pad "2" thru_hole circle
+		(at 6 1.3)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c54cab3d-afda-40a0-9420-82566c353d64")
+	)
+	(pad "3" thru_hole circle
+		(at 4.5 1.3)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d55ec395-433c-4f13-ac91-01d973d2d255")
+	)
+	(pad "4" thru_hole circle
+		(at 3 1.3)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ce5ca921-73b8-4078-a4fc-a80d06ea3603")
+	)
+	(pad "5" thru_hole circle
+		(at 1.5 1.3)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0c76029c-7ee9-4f80-88f0-64f32a984ee0")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/juerg/Documents/_Workspaces/MyKiCad/MyLibs/Step/B5B-ZR--3DModel-STEP-56544.STP"
+		(offset
+			(xyz 4.5 -1.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
