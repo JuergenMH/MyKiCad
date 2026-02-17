@@ -1,0 +1,167 @@
+(footprint "G5Q-1-DC5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Omron Minatorrelay 1 * SPDT")
+	(property "Reference" "REF**"
+		(at -7.2136 -10.16 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "59285396-bfa6-438d-be49-40d172ef53af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "G5Q-1-DC5"
+		(at -4.7244 -8.7136 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "38835f01-77a6-4df5-8754-b79e0438e3e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "823f1eae-4499-41d5-a538-0c54be4da9ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Omron Minatorrelay 1 * SPDT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "491baa50-742d-44d8-b910-c127b6719be5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -10.414 -5.4356)
+		(end 10.4064 5.4064)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4c1e7aa8-09b3-416c-a94f-a5ff3b756da5")
+	)
+	(fp_rect
+		(start -10.5 -5.5)
+		(end 10.5 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7e5aa6ba-7a4d-4bc7-a019-8840ad04352b")
+	)
+	(fp_rect
+		(start -10.2616 -5.2832)
+		(end 10.2616 5.2832)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "19f6f1bd-0f6a-43f7-b639-4d1f761b4110")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4.7244 -7.2136 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "21110e92-7103-4fc0-a6d0-c40bf8b5ee06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b1732682-da8e-4b36-bc4a-f0d8e6f7b7a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "11" thru_hole circle
+		(at 1.27 3.81)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f046590-8101-4838-96fd-36721641cf2c")
+	)
+	(pad "12" thru_hole circle
+		(at 6.35 -3.81)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6500d600-3a64-43c7-9765-43b6661ebb3a")
+	)
+	(pad "14" thru_hole circle
+		(at 8.89 3.81)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "140d3b19-aa3a-42aa-b95e-cba7957f64c5")
+	)
+	(pad "A1" thru_hole circle
+		(at -8.89 3.81)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80251931-271f-4015-9bf9-fd7c66c7f24d")
+	)
+	(pad "A2" thru_hole circle
+		(at -8.89 -3.81)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8c476211-5a8f-47d7-8ad6-0dae35e150b5")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/JEggeling/OneDrive - Beko Technologies GmbH/_Projekte/MyKicad/MyLibs/Step/G5Q_1.step"
+		(offset
+			(xyz -9 -4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
